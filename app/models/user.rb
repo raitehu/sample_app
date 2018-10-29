@@ -21,7 +21,7 @@ class User < ApplicationRecord
   end
 
   def User.new_token
-    SecureRandam.urlsafe_base64
+    SecureRandom.urlsafe_base64
   end
 
   def remember
